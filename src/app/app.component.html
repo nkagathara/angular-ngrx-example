@@ -1,0 +1,21 @@
+<div class="container">
+  <header class="p-6">
+    <div class="text-center mb-6">
+      <h1 class="text-2xl font-bold text-white mb-2">Course Management System</h1>
+      <p class="text-white opacity-90">Manage your courses with modern NgRx state management</p>
+    </div>
+    
+    <nav class="nav-modern">
+      <a class="nav-link-modern" routerLink="courses" routerLinkActive="active">
+        📚 View Courses
+      </a>
+      <a class="nav-link-modern" routerLink="create-course" routerLinkActive="active">
+        ➕ Create Course
+      </a>
+    </nav>
+  </header>
+
+  <main class="fade-in">
+    <router-outlet></router-outlet>
+  </main>
+</div>
